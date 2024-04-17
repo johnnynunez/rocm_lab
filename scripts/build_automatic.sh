@@ -13,7 +13,7 @@ cd /root/automatic
 git reset --hard
 git submodule update --init --recursive
 
-pip install git+https://github.com/openai/CLIP.git@d50d76daa670286dd6cacf3bcd80b5e4823fc8e1
+pip install git+https://github.com/openai/CLIP.git@a1d071733d7111c9c014f024669f959182114e33
 
 mkdir -p /root/automatic/repositories
 
@@ -28,4 +28,4 @@ aria2c --console-log-level=error -c -x 16 -s 16 -k 1M https://huggingface.co/emb
 pip install -r /root/automatic/repositories/CodeFormer/requirements.txt
 pip install -r /root/automatic/requirements.txt
 
-pip install tensorflow==2.12.0
+pip install tensorflow==2.16.1

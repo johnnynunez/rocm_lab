@@ -18,9 +18,9 @@ git clone https://github.com/thomasasfk/sd-webui-aspect-ratio-helper /root/stabl
 
 cd /root/stable-diffusion-webui
 
-pip install git+https://github.com/TencentARC/GFPGAN.git@8d2447a2d918f8eba5a4a01463fd48e45126a379
-pip install git+https://github.com/openai/CLIP.git@d50d76daa670286dd6cacf3bcd80b5e4823fc8e1
-pip install git+https://github.com/mlfoundations/open_clip.git@bb6e834e9c70d9c27d0dc3ecedeebeaeb1ffad6b
+pip install git+https://github.com/TencentARC/GFPGAN.git@7552a7791caad982045a7bbe5634bbf1cd5c8679
+pip install git+https://github.com/openai/CLIP.git@a1d071733d7111c9c014f024669f959182114e33
+pip install git+https://github.com/mlfoundations/open_clip.git@9eaf2424e74a4e34f5041e640e5e69bac5eb41aa
 
 mkdir -p /root/stable-diffusion-webui/repositories
 
