@@ -11,7 +11,7 @@ export PYTORCH_ROCM_ARCH=gfx1100
 
 # build torchvision
 
-git clone --recursive -b release/2.2.2 https://github.com/pytorch/audio torchaudio
+git clone --recursive -b release/2.3.1 https://github.com/pytorch/audio torchaudio
 
 cd torchaudio
 git reset --hard
