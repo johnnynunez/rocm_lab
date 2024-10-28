@@ -28,4 +28,4 @@ aria2c --console-log-level=error -c -x 16 -s 16 -k 1M https://huggingface.co/emb
 pip install -r /root/automatic/repositories/CodeFormer/requirements.txt
 pip install -r /root/automatic/requirements.txt
 
-pip install tensorflow==2.16.1
+pip install tensorflow==2.18.0

@@ -19,7 +19,7 @@ sudo ./llvm.sh 18
 export WORKDIR=$(pwd)
 export PYTHON_BIN_PATH=$WORKDIR/venv/bin/python3
 export PYTHON_LIB_PATH=$WORKDIR/venv/lib/python3.11/site-packages
-export ROCM_PATH=/opt/rocm-6.1.3
+export ROCM_PATH=/opt/rocm-6.2.3
 export TF_NEED_ROCM=1
 export GPU_DEVICE_TARGETS=gfx1100
 
@@ -33,7 +33,7 @@ fi
 cd tensorflow-upstream
 
 # install bazel in venv
-curl -L https://github.com/bazelbuild/bazelisk/releases/download/v1.19.0/bazelisk-linux-amd64 -o $WORKDIR/venv/bin/bazel \
+curl -L https://github.com/bazelbuild/bazelisk/releases/download/v1.22.1/bazelisk-linux-amd64 -o $WORKDIR/venv/bin/bazel \
   && chmod +x $WORKDIR/venv/bin/bazel
 
 bazel clean --expunge
