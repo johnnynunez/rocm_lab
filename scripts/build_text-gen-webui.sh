@@ -19,8 +19,4 @@ pushd GPTQ-for-LLaMa && python3 setup_rocm.py install && popd
 popd
 
 pip install -r requirements.txt
-
-curl -L -O https://github.com/evshiron/rocm_lab/releases/download/v1.14.514/bitsandbytes-0.37.2-py3-none-any.whl
-
-pip uninstall -y bitsandbytes
-pip install bitsandbytes-0.37.2-py3-none-any.whl
+pip install -U bitsandbytes

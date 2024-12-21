@@ -6,7 +6,7 @@ python3 -m venv venv
 
 source venv/bin/activate
 
-export ROCM_HOME=/opt/rocm-6.2.3
+export ROCM_HOME=/opt/rocm-6.3.0
 export HCC_AMDGPU_TARGET=gfx1100
 
 # build bitsandbytes-rocm

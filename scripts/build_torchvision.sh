@@ -10,10 +10,10 @@ export FORCE_CUDA=1
 
 # build torchvision
 
-git clone --recursive -b release/0.20.0 https://github.com/pytorch/vision.git torchvision
+git clone --recursive -b release/0.20.1 https://github.com/pytorch/vision.git torchvision
 
 cd torchvision
-echo 0.20.0 > version.txt
+echo 0.20.1 > version.txt
 
 pip install setuptools wheel cmake ninja 
 

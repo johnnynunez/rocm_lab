@@ -7,7 +7,7 @@ python3 -m venv venv
 source venv/bin/activate
 
 export USE_CUDA=0
-export ROCM_PATH=/opt/rocm-6.2.3
+export ROCM_PATH=/opt/rocm-6.3.0
 export PYTORCH_ROCM_ARCH=gfx1100
 
 # build torch

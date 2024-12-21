@@ -6,12 +6,12 @@ python3 -m venv venv
 
 source venv/bin/activate
 
-export ROCM_PATH=/opt/rocm-6.2.3
+export ROCM_PATH=/opt/rocm-6.3.0
 export PYTORCH_ROCM_ARCH=gfx1100
 
 # build torchvision
 
-git clone --recursive -b release/2.5.0 https://github.com/pytorch/audio torchaudio
+git clone --recursive -b release/2.5.1 https://github.com/pytorch/audio torchaudio
 
 cd torchaudio
 git reset --hard

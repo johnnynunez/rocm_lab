@@ -19,7 +19,7 @@ sudo ./llvm.sh 18
 export WORKDIR=$(pwd)
 export PYTHON_BIN_PATH=$WORKDIR/venv/bin/python3
 export PYTHON_LIB_PATH=$WORKDIR/venv/lib/python3.11/site-packages
-export ROCM_PATH=/opt/rocm-6.2.3
+export ROCM_PATH=/opt/rocm-6.3.0
 export TF_NEED_ROCM=1
 export GPU_DEVICE_TARGETS=gfx1100
 
